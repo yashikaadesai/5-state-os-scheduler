@@ -1,0 +1,20 @@
+Process 1: Ready -> Running
+Hardware Interrupt: Timer Interval
+Process 1: Running -> Ready
+Process 1: Ready -> Running
+Software Interrupt: NETWORK 1
+Process 1: Running -> Blocked
+Process 1: Blocked -> Ready
+Process 1: Ready -> Running
+Software Interrupt: TERMINATE
+Process 1: Running -> Halted
+Process 2: Ready -> Running
+Software Interrupt: NETWORK 1
+Process 2: Running -> Blocked
+Process 2: Blocked -> Ready
+Process 2: Ready -> Running
+Software Interrupt: TERMINATE
+Process 2: Running -> Halted
+Process 3: Ready -> Running
+Software Interrupt: TERMINATE
+Process 3: Running -> Halted
